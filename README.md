@@ -7,9 +7,9 @@ Swap stereo images taken from the clipboard. Parallel to cross, and cross to par
 - Install required packages:
   - ```pip install pillow opencv-python pyautogui```
 - Then, capture the image into the clipboard:
-  - Linux: \[PrintScreen\], then select region.
+  - Linux: \[PrintScreen\], then select region. (This is for Unity.)
   - Windows: \[Windows\]-\[Shift\]-[s], then select region.
-  - MacOS: ??? 
+  - MacOS: \[Shift\]-\[Command\]-[4], then select region. (I don't have a mac so was not able to test this.)
   - If the image is in a browser, you can try right click, and select \[Copy image\].
 - Run the script:
   - ```python swap-stereo.py```
